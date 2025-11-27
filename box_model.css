@@ -1,0 +1,52 @@
+/*
+    dark blue: #0055AA
+    reddish orange: #AA3300
+*/
+
+body {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #0055AA;
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    border: 15px solid #AA3300;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    color: #0055AA;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #AA3300;
+}
+
+p.random_class {
+    background-color: #0055AA;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    border: 4px dotted #AA3300;
+    margin: 25px;
+}
+
+div {
+    background-color: #0055AA;
+    width: 646px;
+    padding: 20px;
+    border: 8px double #AA3300;
+    margin: 40px auto;
+}
