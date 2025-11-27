@@ -7,8 +7,6 @@ body {
     margin: 0;
     padding: 20px;
     line-height: 1.6;
-    max-width: 900px;
-    margin: auto;
 }
 
 h1, h2, h3, h4 {
@@ -20,7 +18,7 @@ p {
     margin-bottom: 14px;
 }
 
-/* ---------- Navigation ---------- */
+/* ---------- Navigation (the bottom list + top list if used) ---------- */
 
 ul {
     list-style-type: none;
@@ -30,9 +28,6 @@ ul {
 
 ul li {
     margin: 8px 0;
-    background: #1a1a1a;
-    padding: 8px 10px;
-    border-radius: 5px;
 }
 
 ul li a {
@@ -44,7 +39,15 @@ ul li a:hover {
     text-decoration: underline;
 }
 
-/* ---------- Table ---------- */
+/* ---------- Album List ---------- */
+
+ul li {
+    background: #1a1a1a;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+/* ---------- Table Styling ---------- */
 
 table {
     width: 100%;
@@ -63,6 +66,15 @@ th, td {
 th {
     background-color: #222;
     color: #4ecbff;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #181818;
+}
+
+tr:hover {
+    background-color: #2a2a2a;
 }
 
 /* ---------- Links ---------- */
@@ -81,5 +93,13 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 6px;
-    margin: 12px 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+/* ---------- Layout ---------- */
+
+body {
+    max-width: 900px;
+    margin: auto;
 }
